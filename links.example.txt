@@ -1,0 +1,3 @@
+# Paste copied Spotify playlist links here, one URL per line.
+# Example:
+https://open.spotify.com/track/7JEzAlwHhCD2M1cYE6BeqJ
