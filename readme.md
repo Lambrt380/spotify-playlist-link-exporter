@@ -24,13 +24,8 @@ both a full CSV export and a clean text list.
 
 ## Quick Start
 
-Clone or download this project, then create `links.txt` from the example file:
-
-```bash
-cp links.example.txt links.txt
-```
-
-Put your copied Spotify links in `links.txt`.
+Clone or download this project, then put your copied Spotify links in
+`links.txt`.
 
 ```bash
 python3 export_spotify_playlist.py
@@ -47,6 +42,16 @@ After the script finishes, it creates:
 - `spotify_track_links.csv` - full export with metadata
 - `spotify_tracks_simple.txt` - clean list in `position, title - artists` format
 - `spotify_track_cache.json` - local metadata cache
+
+## Example
+
+The `example/` folder contains a full sample run:
+
+- `example/links.txt` - copied Spotify playlist links
+- `example/spotify_track_links.csv` - full CSV output
+- `example/spotify_tracks_simple.txt` - simplified text output
+
+Use it as a reference for the input and output formats.
 
 ## Copying Playlist Links
 

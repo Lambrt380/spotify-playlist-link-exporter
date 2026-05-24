@@ -2,9 +2,8 @@
 __pycache__/
 *.py[cod]
 
-links.txt
-spotify_track_cache.json
-spotify_track_links.csv
-spotify_tracks_simple.txt
+/spotify_track_cache.json
+/spotify_track_links.csv
+/spotify_tracks_simple.txt
 
 .DS_Store
