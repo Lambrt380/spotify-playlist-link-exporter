@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""Export Spotify track names and artists from copied track links.
-
-The script reads Spotify track and local-file URLs from a text file, fetches
-Spotify's public embed metadata for regular tracks, decodes local-file URLs, and
-writes a CSV with the track title and artists. It does not need Spotify API
-credentials.
-"""
 
 from __future__ import annotations
 
